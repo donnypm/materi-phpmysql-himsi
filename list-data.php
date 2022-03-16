@@ -5,14 +5,14 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Data Vaksin Mahasiswa Perbanas Institute</title>
+    <title>List Data Vaksin Mahasiswa Perbanas Institute</title>
 </head>
 
 <body>
     <div class="content">
 
         <header>
-            <h3>Data vaksin Mahasiswa</h3>
+            <h3>List Data Vaksin Mahasiswa</h3>
         </header>
 
         <nav>

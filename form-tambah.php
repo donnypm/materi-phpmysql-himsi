@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Data Vaksin Mahasiswa Perbanas Institute</title>
+    <title>Tambah Data Vaksin Mahasiswa Perbanas Institute</title>
 </head>
 
 <body>
