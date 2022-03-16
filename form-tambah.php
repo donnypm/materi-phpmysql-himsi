@@ -19,27 +19,27 @@
 
                 <p>
                     <label for="nama">NIM : </label>
-                    <input type="text" name="nim" placeholder="NIM" />
+                    <input type="text" name="nim" placeholder="NIM" required/>
                 </p>
                 <p>
                     <label for="nama">Nama : </label>
-                    <input type="text" name="nama" placeholder="nama lengkap" />
+                    <input type="text" name="nama" placeholder="nama lengkap" required/>
                 </p>
                 <p>
                     <label for="nama">Vaksin Ke-1 : </label>
-                    <input type="text" name="vaksin_1" placeholder="Jenis Vaksin 1" />
+                    <input type="text" name="vaksin_1" placeholder="Jenis Vaksin 1" required/>
                 </p>
                 <p>
                     <label for="nama">Vaksin Ke-2 : </label>
-                    <input type="text" name="vaksin_2" placeholder="Jenis Vaksin 2" />
+                    <input type="text" name="vaksin_2" placeholder="Jenis Vaksin 2" required/>
                 </p>
                 <p>
                     <label for="nama">Tanggal Vaksin Ke-1 : </label>
-                    <input type="date" name="tanggal_vaksin1" placeholder="Tanggal Vaksin 1" />
+                    <input type="date" name="tanggal_vaksin1" placeholder="Tanggal Vaksin 1" required/>
                 </p>
                 <p>
                     <label for="nama">Tanggal Vaksin Ke-2 : </label>
-                    <input type="date" name="tanggal_vaksin2" placeholder="Tanggal Vaksin 2" />
+                    <input type="date" name="tanggal_vaksin2" placeholder="Tanggal Vaksin 2" required/>
                 </p>
 
                 <p>
