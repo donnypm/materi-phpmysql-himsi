@@ -21,12 +21,10 @@ if (isset($_POST['submit'])) {
     // apakah query simpan berhasil?
     if ($query) {
         // kalau berhasil alihkan ke halaman index.php dengan status=sukses
-        // echo "<script type='text/javascript'>alert('Berhasil Tambah Data');</script>";
         echo ("<script type='text/javascript'>
                     window.alert('Berhasil Edit Data');
                     window.location.href='list-data.php';
                 </script>");
-        // header('Location: index.php?status=sukses');
     } else {
         // kalau gagal alihkan ke halaman indek.php dengan status=gagal
         header('Location: index.php?status=gagal');
