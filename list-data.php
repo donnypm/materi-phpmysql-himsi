@@ -26,6 +26,7 @@
             <thead>
                 <tr>
                     <th>No</th>
+                    <th>id</th>
                     <th>Nim</th>
                     <th>Nama</th>
                     <th>Vaksin Ke-1</th>
@@ -40,10 +41,13 @@
                 <?php
                     $sql = "SELECT * FROM list_data";
                     $query = mysqli_query($db, $sql);
+                    $no=1;
 
                     while ($data = mysqli_fetch_array($query)) {
+                       
                         echo "<tr>";
 
+                        echo "<td>".$no++."</td>";
                         echo "<td>" . $data['id'] . "</td>";
                         echo "<td>" . $data['nim'] . "</td>";
                         echo "<td>" . $data['nama'] . "</td>";

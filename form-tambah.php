@@ -52,7 +52,10 @@
         </form>
 
         <button>
-            <a href="index.php" style="text-decoration:none; color:black;">Back</a>
+            <a href="index.php" style="text-decoration:none; color:black;">Home</a>
+        </button>
+        <button>
+            <a href="list-data.php" style="text-decoration:none; color:black;">Lihat Data</a>
         </button>
 
     </div>
