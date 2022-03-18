@@ -6,6 +6,7 @@ include("koneksi.php");
 if(isset($_POST['submit'])){
 
     // ambil data dari formulir
+    $id = mt_rand();
     $nim = $_POST['nim'];
     $nama = $_POST['nama'];
     $vaksin_1 = $_POST['vaksin_1'];
@@ -14,7 +15,7 @@ if(isset($_POST['submit'])){
     $tanggal_vaksin2 = $_POST['tanggal_vaksin2'];
 
     // buat query
-    $sql = "INSERT INTO list_data (nim, nama, vaksin_1, vaksin_2, tanggal_vaksin1, tanggal_vaksin2) VALUE ('$nim','$nama', '$vaksin_1', '$vaksin_2', '$tanggal_vaksin1', '$tanggal_vaksin2')";
+    $sql = "INSERT INTO list_data (id, nim, nama, vaksin_1, vaksin_2, tanggal_vaksin1, tanggal_vaksin2) VALUE ('$id','$nim','$nama', '$vaksin_1', '$vaksin_2', '$tanggal_vaksin1', '$tanggal_vaksin2')";
     $query = mysqli_query($db, $sql);
 
     // apakah query simpan berhasil?
@@ -26,7 +27,10 @@ if(isset($_POST['submit'])){
                 </script>");
     } else {
         // kalau gagal alihkan ke halaman indek.php dengan status=gagal
-        header('Location: index.php?status=gagal');
+        echo ("<script type='text/javascript'>
+                    window.alert('Gagal Tambah Data');
+                    window.location.href='form-tambah.php';
+                </script>");
     }
 
 
